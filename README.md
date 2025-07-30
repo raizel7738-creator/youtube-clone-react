@@ -1,3 +1,122 @@
+# YouTube Clone
+
+A modern YouTube clone built with React and CSS, featuring real video data from the YouTube Data API v3.
+
+## Features
+
+- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
+- **Real YouTube Data**: Fetches trending videos and search results using YouTube Data API v3  
+- **Video Search**: Search for videos with real-time results
+- **Video Player**: Watch videos with embedded YouTube player
+- **Modern UI**: Dark theme with smooth animations and hover effects
+- **Sidebar Navigation**: Collapsible sidebar with navigation options
+- **Video Cards**: Beautiful video thumbnails with metadata display
+
+## Components
+
+- **Header**: Navigation bar with search functionality and YouTube branding
+- **Sidebar**: Collapsible navigation menu with various sections
+- **VideoGrid**: Grid layout for displaying video thumbnails
+- **VideoCard**: Individual video card with thumbnail, title, and metadata
+- **VideoPlayer**: Full video player page with video details and actions
+
+## Technologies Used
+
+- **React**: Frontend framework
+- **CSS3**: Styling with modern CSS features
+- **Axios**: HTTP client for API requests
+- **YouTube Data API v3**: Real video data source
+
+## Getting Started
+
+1. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+2. **Start Development Server**
+   ```bash
+   npm start
+   ```
+
+3. **Open in Browser**
+   Navigate to `http://localhost:3000`
+
+## API Configuration
+
+The app uses the YouTube Data API v3 with the following key:
+- API Key: `AIzaSyCQlPH_xOMFViQxF20gwhr4wyP992Putl0`
+
+**Note**: For production use, please replace with your own API key and store it securely using environment variables.
+
+## Project Structure
+
+```
+src/
+├── api/
+│   └── youtube.js          # YouTube API service
+├── components/
+│   ├── Header/             # Navigation header
+│   ├── Sidebar/            # Navigation sidebar  
+│   ├── VideoGrid/          # Video grid container
+│   ├── VideoCard/          # Individual video card
+│   └── VideoPlayer/        # Video player page
+├── App.js                  # Main application component
+├── App.css                 # Global styles
+└── index.js               # Application entry point
+```
+
+## Features in Detail
+
+### Search Functionality
+- Real-time search using YouTube Data API
+- Search suggestions and results
+- Clean search interface
+
+### Video Display
+- Grid layout with responsive design
+- Video thumbnails with duration overlay
+- Channel information and view counts
+- Published date formatting
+
+### Video Player
+- Embedded YouTube player
+- Video information and description
+- Like/dislike buttons (UI only)
+- Channel subscription button (UI only)
+- Back navigation to video grid
+
+### Responsive Design
+- Mobile-first approach
+- Collapsible sidebar on smaller screens
+- Adaptive grid layouts
+- Touch-friendly interface
+
+## Browser Support
+
+- Chrome (recommended)
+- Firefox
+- Safari
+- Edge
+
+## Development
+
+To run the project in development mode:
+
+```bash
+npm start
+```
+
+To build for production:
+
+```bash
+npm run build
+```
+
+## License
+
+This project is for educational purposes. YouTube and the YouTube logo are trademarks of Google LLC.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
